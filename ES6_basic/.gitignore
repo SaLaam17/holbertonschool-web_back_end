@@ -1,4 +1,4 @@
-.gitignore
+.gitignore/
 package.json/
 package-lock.json/
 babel.config.js/
