@@ -10,15 +10,15 @@ export default class HolbertonCourse {
     if (!Array.isArray(students) || !students.every((student) => typeof student === 'string')) {
       throw new TypeError('Students must be an array of strings');
     }
-    // ---------------------------------------------------//
-    /* Each attribute must be stored in an “underscore”
-    attribute version (ex: name is stored in _name) */
+    /*
+    Each attribute must be stored in an “underscore”
+    attribute version (ex: name is stored in _name)
+    */
     this._name = name;
     this._length = length;
     this._students = students;
   }
 
-  // ---------------------------------------------------//
   // Implement a getter and setter for each attribute.
   get name() {
     return this._name;
@@ -31,7 +31,7 @@ export default class HolbertonCourse {
     this._name = name;
   }
 
-  // ---------------------------------------------------//
+  // --------------------------------------------------- //
   get length() {
     return this._length;
   }
@@ -43,7 +43,7 @@ export default class HolbertonCourse {
     this._length = length;
   }
 
-  // ---------------------------------------------------//
+  // --------------------------------------------------- //
   get students() {
     return this._students;
   }
