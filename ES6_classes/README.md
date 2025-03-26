@@ -5,7 +5,7 @@ ESLint, un outil de linting pour JavaScript qui t'aidera à maintenir un code pr
 Prochaine étape : Configurer ESLint
 Initialiser la configuration d'ESLint : Tu peux générer un fichier de configuration .eslintrc en utilisant la commande suivante dans ton terminal :
 
-```npx eslint --init```
+```npx eslint --init``` <br>
 Cela te guidera à travers un assistant pour configurer ESLint en fonction de tes besoins. Voici les options typiques que tu devras choisir :
 
 Quel style de code souhaites-tu ? (par exemple, style Airbnb, Standard, etc.)
@@ -27,19 +27,11 @@ Configurer ESLint pour l'intégration avec Babel : Si tu utilises Babel pour tra
   "rules": {
     // Ajouter tes règles ESLint ici
   }
-}```
-Exécuter ESLint sur tes fichiers JavaScript : Pour vérifier ton code avec ESLint, tu peux utiliser cette commande :
-
-
-
-
+}
+```
+Exécuter ESLint sur tes fichiers JavaScript : Pour vérifier ton code avec ESLint, tu peux utiliser cette commande :<br>
 ```npx eslint <fichier ou répertoire à analyser>```
-Par exemple, si tu veux vérifier un fichier app.js :
-
-
-
-
+Par exemple, si tu veux vérifier un fichier app.js :<br>
 ```npx eslint app.js```<br>
-Corriger automatiquement les erreurs : ESLint permet de corriger certaines erreurs automatiquement. Pour cela, tu peux utiliser l'option --fix :
-
+Corriger automatiquement les erreurs : ESLint permet de corriger certaines erreurs automatiquement. Pour cela, tu peux utiliser l'option --fix :<br>
 ```npx eslint <fichier ou répertoire à analyser> --fix```
