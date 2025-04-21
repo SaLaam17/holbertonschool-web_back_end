@@ -6,7 +6,10 @@ and returns their sum as a float.
 """
 
 
-def sum_list(input_list: list) -> float:
+from typing import List
+
+
+def sum_list(input_list: List[float]) -> float:
     """
     Type-annotated function called "sum_list"
     which takes a list "input_list" of floats as argument
