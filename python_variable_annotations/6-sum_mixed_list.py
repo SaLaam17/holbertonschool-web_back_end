@@ -6,6 +6,9 @@ and returns their sum as a float.
 """
 
 
+from typing import List
+
+
 def sum_mixed_list(mxd_lst: list[int | float]) -> float:
     """
     type-annotated function called "sum_mixed_list"
