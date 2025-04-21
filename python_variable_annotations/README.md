@@ -1,2 +1,1 @@
-Creating a README.md file for the ES6 Basics project
-documentation: package.json
+Creating a README.md file for the Python - Variable Annotations project.
