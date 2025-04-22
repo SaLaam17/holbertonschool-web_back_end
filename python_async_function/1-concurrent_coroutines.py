@@ -13,7 +13,7 @@ async def wait_n(n: int, max_delay: int = 10) -> list[float]:
     Spawn wait_random n times with the given max_delay,
     and return the list of delays in the order they complete.
     """
-    lst = [asyncio.create_task(wait_random(max_delay)) for i in range(n)]
+    lst = [asyncio.create_task(wait_random(max_delay)) for _ in range(n)]
     results = []
     for coroutine in asyncio.as_completed(lst):
         result = await coroutine
