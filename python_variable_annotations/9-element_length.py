@@ -4,10 +4,10 @@ Module
 """
 
 
-from typing import Iterable, Tuple
+from typing import Iterable, Sequence, Tuple
 
 
-def element_length(lst: Iterable[list]) -> list[Tuple]:
+def element_length(lst: Iterable[Sequence]) -> list[Tuple[Sequence, int]]:
     """
     Function's documentation.
     """
