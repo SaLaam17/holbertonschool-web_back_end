@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 """
-Module
+Module providing a helper function for pagination.
 """
-
-
 from typing import Tuple
 
 
