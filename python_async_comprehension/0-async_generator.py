@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Module for a coroutine called async_generator
-that takes no arguments.
+Module for the coroutine async_generator
+that generates 10 random numbers asynchronously,
+yielding each number with a 1-second delay between each.
 """
 import random
 import asyncio
