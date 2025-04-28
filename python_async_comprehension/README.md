@@ -1,1 +1,1 @@
-Creating a README.md for teh Python - Async Comprehension project.
+Creating a README.md for the Python - Async Comprehension project.
