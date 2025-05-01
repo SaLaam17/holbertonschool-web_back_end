@@ -4,10 +4,8 @@ from pymongo import MongoClient
 client = MongoClient('mongodb://127.0.0.1:27017')
 db = client.logs.nginx
 
-# print("Connexion à MongoDB réussie !") Test de connexion
-
 total_logs = db.count_documents({})
-print(f"{total_logs} logs")  # Affichage des logs
+print(f"{total_logs} logs")
 
 print("Methods:")
 methods = ["GET", "POST", "PUT", "PATCH", "DELETE"]
